@@ -168,7 +168,6 @@ app.post("/submit-test", async (req, res) => {
 async function createSampleTest() {
   const testId = "sample-test-1";
 
-  // Assuming you have a collection named 'tests' in the database to store the test details
   const collection = client.db(dbName).collection("tests");
 
   // Sample test details
